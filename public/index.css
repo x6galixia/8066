@@ -1,0 +1,97 @@
+:root {
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  background-color: #242424;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  background: #000000;
+  padding: 0;
+  margin: 0;
+}
+
+main {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.greed {
+  color: #FFFFFF;
+  font-size: 45px;
+  font-weight: bold;
+  text-shadow: 4px 4px 0 #5c1894, -2px -2px 0 #5c1894, 2px -2px 0 #5c1894, -2px 2px 0 #5c1894, 2px 2px 0 #5c1894;
+  margin-bottom: 35px;
+  margin-top: 30px;
+
+}
+
+.form {
+  background-image: url(webservbg.jpg);
+  background-repeat: repeat;
+  background-size: cover;
+  color: #FFFFFF;
+  height: 350px;
+  width: 550px;
+  border: 2px solid #5c1894;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+
+.form-control {
+  height: 30px;
+  display: block;
+  width: 270px;
+  border: 1px solid #5c1894;
+  padding: 5px 10px;
+  border-radius: 18px;
+  outline: none;
+  background-color: #413f3f;
+  color: #FFFFFF;
+  margin-bottom: 10px;
+  font-size: 12px;
+}
+
+.form__submit {
+  height: 30px;
+  width: 85px;
+  display: block;
+  margin: auto;
+  background: #5c1894;
+  border-radius: 18px;
+  border: none;
+  color: #fff;
+  font-size: 10px;
+  cursor: pointer;
+}
+
+.contact {
+  color: #212020;
+  font-size: 12px;
+  font-weight: 100;
+  text-decoration: underline;
+  letter-spacing: 12%;
+  opacity: 80%;
+  margin-top: 80px;
+}
